@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .material-icons{
+            font-size: 1rem;
+            vertical-align: middle;
+        }
+        p{
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+        a[href="#endereco"],
+        a[href="#competencias"],
+        a[href="#formacao"] {
+            color: blue;
+        }
+        h2 {
+            color: rgb(12, 121, 155);
+            background-color: cyan;
+            background-color: rgb(13, 75, 190);
+            border-radius: 5px;
+        }
+        
+        #social {
+            text-align: center; 
+            margin-top: 20px; 
+        }
+        
+        #social a {
+            color: white; 
+            font-size: 2rem; 
+            margin: 0 10px; 
+        }
+        
+        #social a:hover {
+            text-decoration: none; 
+        }
+
+        
+        #social a:nth-child(1) {
+            color: navy; 
+        }
+
+        #social a:nth-child(2) {
+            color: dodgerblue; 
+        }
+
+        #social a:nth-child(3) {
+            color: navy; 
+        }
+
+        
+        #back-to-top {
+            text-align: center; 
+            margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Matheus Augusto Cavalcante Maia</h1>
+    
+    <h2>Dados Pessoais</h2>
+    <ul>
+        <li><strong>Nascimento:</strong> 16/06/2004</li>
+        <li><strong>Email:</strong> cavalcante.matheus@academico.ifpb.edu.br</li>
+        <li><strong>Telefone:</strong> (83) 99888-7961</li>
+    </ul>
+    <img src="avatar.png" alt="Avatar" width="100" style="max-width: 100%; height: auto; display: block; margin-top: 20px;">
+    <p>
+        Meu nome é Matheus Augusto Cavalcante Maia e sou estudante do curso Redes de Computadores
+    </p>
+    <p>
+        <a href="parte2.html" target="_blank">Ler mais</a>
+        <i class="material-icons">launch</i>
+    </p>
+    <h2>Sumário</h2>
+    <hr>
+    -> <a href="#endereco">Ir para Endereço</a><br>
+    -> <a href="#competencias">Ir para Competências</a><br> 
+    -> <a href="#formacao">Ir para Formação</a>
+    <hr>
+    <h2 id="endereco">Endereço</h2>
+    <ul>
+        <li><strong>Rua:</strong> Rua Antonio Peixoto Filho</li>
+        <li><strong>Cidade:</strong> João Pessoa, PB</li>
+        <li><strong>Bairro:</strong> Jardim Cidade Universitaria</li>
+    </ul>
+    <hr>
+    <h2 id="competencias">Competências</h2>
+    <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>PYTHON</li>
+    </ul>
+    <hr>
+    <h2 id="formacao">Formação Acadêmica</h2>
+    <ul>
+        <li><strong>Instituto Federal de Educação, Ciência e Tecnologia da Paraíba</strong><br>
+            Ensino Superior Redes de Computadores<br>
+            2024-Atual<br>
+            <a href="http://www.ifpb.edu.br/">Instituto Federal de Educação, Ciência e Tecnologia da Paraíba</a>
+        </li>
+    </ul>
+    <div id="social">
+        
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
+        <a href="#"><i class="fab fa-linkedin-square"></i></a>
+    </div>
+    <div id="back-to-top">
+        <a href="#">Voltar para o topo</a>
+    </div>
+</body>
+</html>
